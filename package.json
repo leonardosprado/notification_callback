@@ -1,0 +1,14 @@
+{
+  "name": "service-callback-cess",
+  "version": "1.0.0",
+  "description": "URL de callback para notificação, o sistema irá notificar quando o processo de assinatura for finalizado, será feito uma requisição HTTP(s) - POST na URL informada, na chamada será concatenado o código transação no final da url informada neste parâmetro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Prado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
