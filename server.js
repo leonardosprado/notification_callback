@@ -14,6 +14,6 @@ app.post('/notification_callback',(req,res)=>{
         tcn: tcn
     });
 })
-app.listen(port, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`App listening on port ${port}`)
   })
