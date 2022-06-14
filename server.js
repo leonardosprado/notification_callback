@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const port = 80
+const port = 8080
 app.get('/', (req, res) => {
   res.send(`URL de callback para notificação, o sistema irá notificar quando o processo de assinatura for finalizado, será feito uma requisição 
   HTTP(s) - POST na URL informada, na chamada será concatenado o código transação no final da url informada neste parâmetro.`)
